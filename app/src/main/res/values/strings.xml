@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EDUMSG</string>
+    <string name="title_activity_main">Home</string>
+
+    <string name="title_section1">News Feeds</string>
+    <string name="title_section2">Notifications</string>
+    <string name="title_section3">Profile</string>
+    <string name="title_section4">Groups</string>
+    <string name="title_section5">Inbox</string>
+    <string name="title_section6">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Refresh</string>
+
+    <string name="action_settings">Settings</string>
+
+    
+    <string name="home_feeds">News Feeds</string>
+    <string name="settings">Settings</string>
+    <string name="menu1">Menu</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="news">News</string>
+    <string name="following">Following</string>
+    <string name="slider">Slider</string>
+    <string name="progress">Progress</string>
+    <string name="slide_btn">Slide Button</string>
+    <string name="radio_btn">Radio</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="selected">Selected</string>
+    <string name="tab">Tab</string>
+    <string name="button">Button</string>
+    <string name="find">Find</string>
+    <string name="recent_friends">Recently from your friends</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="likes">Followers</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="type_msg">Type message</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registeration">Register</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

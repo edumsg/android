@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat"></style>
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="tab_btn" parent="@style/btn">
+        <item name="android:background">@drawable/btn_tab</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/tab_color</item>
+    </style>
+    
+    <style name="custom_switch" >
+        <item name="android:textStyle">bold</item>
+        <item name="android:thumb">@drawable/swith_thumb</item>
+        <item name="android:track">@drawable/switch_bg</item>
+    </style>
+    <style name="gray_dk_btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@color/main_color_gray</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:minHeight">1dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="gray_light_btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@color/main_color_gray_light</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:minHeight">1dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/main_color_gray</item>
+    </style>
+    
+    
+    <style name="edittext_search" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:drawableLeft">@drawable/ic_search</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColorHint">@color/main_color_gray</item>
+    </style>
+    <style name="lbl_explore" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/main_color_gray_light</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="img_explore">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+</resources>

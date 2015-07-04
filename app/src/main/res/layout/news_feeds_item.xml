@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/tab_bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp" 
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/nf_item_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/feed_img" />
+
+            <LinearLayout
+                android:id="@+id/nf_aa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp" >
+                <ImageView
+                    android:id="@+id/news_feeds_user_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/user1" />
+
+                <TextView
+                    android:id="@+id/nf_item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photos"
+                    android:textColor="@color/main_color_gray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/nf_item_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photos"
+                    android:textColor="@color/main_color_gray"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="@color/gray_light"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+            <TextView
+                    android:id="@+id/nf_item_date"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="07.01.2014"
+                    android:textColor="@color/main_color_gray"
+                     />
+
+            <View
+                android:id="@+id/nf_view_ex2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/main_color_gray" 
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"/>
+
+             <TextView
+                    android:id="@+id/nf_item_no_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="16sp"
+                    android:textColor="@color/main_color_gray"
+                     />
+
+             <ImageView
+                 android:id="@+id/nf_imageView_ex19"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:scaleType="fitStart"
+                 android:layout_marginLeft="5dp"
+                 android:src="@drawable/ic_comment" />
+             <View
+                android:id="@+id/nf_view1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/main_color_gray" 
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+             <TextView
+                    android:id="@+id/nf__item_no_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textSize="16sp"
+                    android:textColor="@color/main_color_gray"
+                     />
+
+             <ImageView
+                 android:id="@+id/nf_imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:scaleType="fitStart"
+                 android:layout_marginLeft="5dp"
+                 android:src="@drawable/ic_like" />
+              
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

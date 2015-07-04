@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="red_light">#e74c3c</color>
+    <color name="gray_dk">#313031</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_sky">#33b5e5</color>
+    <color name="dot_bar_bg">#1c1c1c</color>
+    <color name="gray_light">#dbd6cf</color>
+    
+    
+    <color name="main_color_gray">#7c7462</color>
+    <color name="main_color_gray_light">#B4B4B4</color>
+    <color name="tab_bg_color">#e7e7e7</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_bg_color"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/create_new_group"
+            style="@style/tab_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="newGroupbtn"
+            android:text="Create New Group" />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></SearchView>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            style="@style/gray_dk_btn"
+            android:text="Search"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/main_color_gray_light"
+        android:dividerHeight="1dp"
+        tools:listitem="@layout/groups_item" >
+
+    </ListView>
+
+</LinearLayout>

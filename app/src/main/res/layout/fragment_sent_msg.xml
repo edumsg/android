@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_bg_color"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sent_inbox_tab"
+            style="@style/tab_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="inboxbtn"
+            android:text="Inbox" />
+
+        <View
+            android:id="@+id/view_ex"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/main_color_gray" />
+
+        <Button
+            android:id="@+id/sent_sent_tab"
+            style="@style/tab_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Sent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_bg_color"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/send_msg_btn"
+            style="@style/tab_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sendMsgbtn"
+            android:text="Send New Message" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sent_msg_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/main_color_gray_light"
+        android:dividerHeight="1dp"
+        tools:listitem="@layout/message_item" >
+
+    </ListView>
+
+
+</LinearLayout>
