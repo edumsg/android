@@ -1,1 +1,1 @@
-# EduMsg Android Client
+# Edumsg-Android
