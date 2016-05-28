@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_456b309bb8e3d1c3edd10d7cadfc2f5ed6ae9387/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_b8db4f7eebbf3a1ee1f5407c5cc5a75218995c69/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_c7601762a75c45ba048457a13ad73f06b7214ebc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/net.steamcrafted/load-toast/1.0.10/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9749ddf99ada8de851c06344d325bc12593f1949">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/net.steamcrafted-load-toast-1.0.10_20bb55ed536b0e19d2999d2ad257d0896b98aa5c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_03f5829dabed154658bf6174932e5a1015dc9a09/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2ca942fbc73c10a7ef6edc8dc283c1422ccf0e7b">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f3b398aa3d55f3bcf37a1c707e40fa6667a017b9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.yqritc/recyclerview-flexibledivider/1.2.9/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3a03e6e942bcc46a8d01c2da5d8a2147ecab113d">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.yqritc-recyclerview-flexibledivider-1.2.9_c1df628aac1f78a13e848a0978b1f985005b7c25/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6d1390a994d81c34c270d74e8ac788720acedb15">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c198fb53c542172dd527dffa4e9377b762b5e997/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="14d494487b6ab2e3740527221055a99f50b0a697">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.beardedhen-androidbootstrap-2.0.1_55d8981e5893151be15febc0cf227046b2cf05ab/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_d51965adf0d5304b0bc89aeba2831c347a0573f9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_4c3a3c773205f766ab9462d87e7fb8d77d859c29/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.1/14d88822bca655de7aa6ed3e4c498d115505710a/jackson-databind-2.7.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="14d88822bca655de7aa6ed3e4c498d115505710a">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.7.1_d931325e35dc4a5c84fbeef35b2540a3923216cb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_c3c6fe5738652ea4a1d611e143347de9d25e4446/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_e39b2bf021837894b9979516dedac6b250aea212/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="85ccb558dc8258ecf4f0a19e97a3114ec2c64cb4">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.androidanimations-library-1.1.2_3aa12267da875e8b2030cb256578187ed5cd9408/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_a7bee7256bd51c1fa2b9b24876c7a623db61d7af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Library/Android/sdk/build-tools/23.0.2/renderscript/lib/renderscript-v8.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="762016371811e15a66e97cf27f3e852bf287aaf3">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/renderscript-v8_393db725d69ed8d8a05fb5b1d4a9472bfda1ef48/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.daimajia.androidviewhover/library/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="24416ff4be70449acad328b783bdd11d0cc150a7">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.androidviewhover-library-1.0.4_9319827d1fa57500ed42e2ac395af344428d1d72/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.1/8b93f301823b79033fcbe873779b3d84f9730fc1/jackson-annotations-2.7.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.7.1_91685e049d76d0879d06decd7f6a43292d0825cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.1/4127b62db028f981e81caa248953c0899d720f98/jackson-core-2.7.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4127b62db028f981e81caa248953c0899d720f98">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.1_f01c2899e31f182463202472524442ceb083801a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_32814b01958d53f54f0b633a0f7fd640e2200b2e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_be889bc7d729ae6254a4cc1a5757296ec515bba7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b">
+        <dex dex="/Users/omarelhagin/Desktop/Edumsg_Android_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.easing-library-1.0.0_4d8644411bfcab764d87232ab0023e595e23896d/classes.dex" />
+    </item>
+
+</items>
