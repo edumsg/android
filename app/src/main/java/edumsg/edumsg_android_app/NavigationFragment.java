@@ -90,7 +90,6 @@ public class NavigationFragment extends Fragment{
                 intent.putExtra("name", parentActivity.getName());
                 intent.putExtra("avatar_url", parentActivity.getAvatarUrl());
                 intent.putExtra("bio", parentActivity.getBio());
-                intent.putExtra("userId", parentActivity.getUserId());
                 startActivity(intent);
                 parentActivity.getSupportFragmentManager().popBackStack();
             }

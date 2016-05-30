@@ -68,6 +68,10 @@ public class AuthActivity extends MyAppCompatActivity
 //    @Bind(R.id.tab_layout) TabLayout tabLayout;
     @BindColor(R.color.colorPrimary) int cPrimary;
 
+    /**
+     * Instantiates a LoginFragment and displays it on the creation of the activity.
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

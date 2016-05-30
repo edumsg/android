@@ -151,6 +151,9 @@ public class EditProfileFragment extends Fragment {
         return view;
     }
 
+    /**
+     * Sets a text changed listener for every edit text, where every edited field is added to the request parameters.
+     */
     private void setListeners() {
         editName.addTextChangedListener(new TextWatcher() {
             @Override
@@ -314,6 +317,9 @@ public class EditProfileFragment extends Fragment {
         });
     }
 
+    /**
+     * Commits the edited fields to the server and returns the new info back to the profile activity.
+     */
     private void commitChanges() {
         MyAppCompatActivity main = (MyAppCompatActivity) getContext();
         final LoadToast loadToast = new LoadToast(main);

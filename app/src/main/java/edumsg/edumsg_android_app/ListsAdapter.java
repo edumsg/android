@@ -53,12 +53,10 @@ public class ListsAdapter extends RecyclerView.Adapter<ListsAdapter.ListItemView
 
     private ArrayList<List> lists;
     private Context context;
-    private int userId;
 
-    public ListsAdapter(ArrayList<List> lists, Context context, int userId) {
+    public ListsAdapter(ArrayList<List> lists, Context context) {
         this.lists = lists;
         this.context = context;
-        this.userId = userId;
     }
 
     @Override
@@ -81,7 +79,6 @@ public class ListsAdapter extends RecyclerView.Adapter<ListsAdapter.ListItemView
             public void onClick(View v) {
                 MyAppCompatActivity parentActivity = (MyAppCompatActivity) context;
                 Intent intent = new Intent(parentActivity, ListActivity.class);
-                intent.putExtra("userId", parentActivity.getUserId());
                 intent.putExtra("listId", list.getId());
                 intent.putExtra("listName", list.getName());
                 parentActivity.startActivity(intent);

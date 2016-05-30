@@ -112,6 +112,13 @@ public class ConversationFragment extends Fragment {
         getConversation();
     }
 
+    /**
+     * Inflates the XML layout first. Afterwards, it adds a listener to the send message edit text to show a different icon to send when text is typed.
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -169,6 +176,9 @@ public class ConversationFragment extends Fragment {
         return view;
     }
 
+    /**
+     * Gets the conversation relative to this conversation ID from the server, places it into {@link ConversationFragment#messages}, and sorts them by latest timestamp.
+     */
     private void getConversation()
     {
         MyAppCompatActivity main = (MyAppCompatActivity) getContext();

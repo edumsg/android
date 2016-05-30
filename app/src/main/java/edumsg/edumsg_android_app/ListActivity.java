@@ -67,7 +67,6 @@ public class ListActivity extends MyAppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
         ButterKnife.bind(this);
-//        userId = getIntent().getIntExtra("userId", -1);
         listId = getIntent().getIntExtra("listId", -1);
         listName = getIntent().getStringExtra("listName");
 

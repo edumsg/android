@@ -75,7 +75,6 @@ public class ListsActivity extends MyAppCompatActivity {
         setContentView(R.layout.activity_lists);
         ButterKnife.bind(this);
 
-        userId = getIntent().getIntExtra("userId", -1);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Lists");
@@ -85,7 +84,7 @@ public class ListsActivity extends MyAppCompatActivity {
         listsRecyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).build());
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         listsRecyclerView.setLayoutManager(linearLayoutManager);
-        listsAdapter = new ListsAdapter(lists, this, userId);
+        listsAdapter = new ListsAdapter(lists, this);
         listsRecyclerView.setAdapter(listsAdapter);
         getLists();
     }
