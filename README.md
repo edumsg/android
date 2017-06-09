@@ -1,2 +1,2 @@
 # Edumsg-Android
-This is a repository for a bachelor thesis project Android app, which replicates Twitter functionalities.
+This is a repository for an Android app that was created for a bachelor thesis' project, which replicates Twitter functionalities.
